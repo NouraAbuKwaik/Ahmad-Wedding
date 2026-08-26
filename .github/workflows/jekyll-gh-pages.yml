@@ -36,15 +36,17 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: pnpm run build
+        run: pnpm --dir artifacts/dhua-ahmed-wedding run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dist
+        
+    with:
+       path: ./artifacts/dhua-ahmed-wedding/dist
+
 
   deploy:
     environment:

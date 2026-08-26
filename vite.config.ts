@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/Doha-and-Ahmad-Wedding/",
+  base: "/Ahmad-Wedding/",
 
   plugins: [
     react(),
