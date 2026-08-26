@@ -1,3 +1,4 @@
+
 name: Deploy React Vite to GitHub Pages
 
 on:
@@ -43,10 +44,8 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        
-    with:
-       path: ./artifacts/dhua-ahmed-wedding/dist
-
+        with:
+          path: ./artifacts/dhua-ahmed-wedding/dist
 
   deploy:
     environment:
@@ -60,3 +59,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
