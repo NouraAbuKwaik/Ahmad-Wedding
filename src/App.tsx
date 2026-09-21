@@ -48,7 +48,7 @@ function Countdown() {
       <Reveal testId="reveal-countdown">
         <p className="eyebrow"></p>
         <h2 className="countdown-section__heading">نقترب من أجمل يوم</h2>
-        <p className="countdown-section__intro">نعدّ اللحظات حتى نلتقي بكم في صالة مؤتة</p>
+        <p className="countdown-section__intro">نعدّ اللحظات حتى نلتقي بكم في صالة النعمان</p>
         <div className="countdown-grid" dir="rtl" aria-live="polite" data-testid="wedding-countdown">
           {units.map((unit) => (
             <div className="countdown-cell" key={unit.label}>
@@ -102,7 +102,7 @@ function ShareActions() {
       'DTSTART:20261114T150000Z',
       'DTEND:20261114T190000Z',
       'SUMMARY: زفاف أحمد وكريمته',
-      'LOCATION:صالة مؤتة',
+      'LOCATION:صالة النعمان',
       'DESCRIPTION:دعوة زفاف أحمد عاشور و كريمته ',
       'END:VEVENT',
       'END:VCALENDAR',
@@ -326,7 +326,7 @@ function Home() {
               </DetailRow>
               <a
                 className="detail-row detail-row--link"
-                href="https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D8%A9%20%D8%A7%D9%84%D9%86%D8%B9%D9%85%D8%A7%D9%86"
+                href="https://www.google.com/maps/search/?api=1&query=31.99250146515074,35.86480110365035"
                 target="_blank"
                 rel="noreferrer"
                 data-testid="link-venue-location"
