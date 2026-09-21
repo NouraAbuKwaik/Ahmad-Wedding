@@ -326,16 +326,16 @@ function Home() {
               </DetailRow>
               <a
                 className="detail-row detail-row--link"
-                href="https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D8%A9%20%D9%85%D8%A4%D8%AA%D8%A9"
+                href="https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D8%A9%20%D8%A7%D9%84%D9%86%D8%B9%D9%85%D8%A7%D9%86"
                 target="_blank"
                 rel="noreferrer"
                 data-testid="link-venue-location"
-                aria-label="فتح موقع صالة مؤتة على الخريطة"
+                aria-label="فتح موقع صالة النعمان على الخريطة"
               >
                 <div className="detail-row__icon" aria-hidden="true"><MapPin size={21} strokeWidth={1.2} /></div>
                 <div>
                   <p className="detail-row__title">المكان</p>
-                  <p className="detail-row__text">صالة مؤتة <span className="detail-row__action">فتح الخريطة</span></p>
+                  <p className="detail-row__text">صالة النعمان <span className="detail-row__action">فتح الخريطة</span></p>
                 </div>
               </a>
               <DetailRow title="موعد اللقاء" text="ابتداءً من الساعة الثامنة والنصف مساءً" testId="time">
