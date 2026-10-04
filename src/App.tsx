@@ -326,7 +326,7 @@ function Home() {
               </DetailRow>
               <a
              className="detail-row detail-row--link"
-              href="https://www.google.com/maps/search/?api=1&query=31.910948151865032,35.913613390162425"
+              href="https://www.google.com/maps/search/?api=1&query=31.910948151865032,35.913613390162425,قاعة مؤتة"
               target="_blank"
               rel="noreferrer"
               data-testid="link-venue-location"
